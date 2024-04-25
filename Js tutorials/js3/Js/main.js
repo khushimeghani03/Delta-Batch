@@ -30,3 +30,4 @@ var z = "Khushi";
  firstlength= first.length;
  console.log(firstlength);
  console.log(first.length);
+ console.log("Hii".length);
