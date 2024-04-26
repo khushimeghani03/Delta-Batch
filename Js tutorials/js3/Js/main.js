@@ -59,4 +59,24 @@ console.log(shiftArray);
 console.log(ourArray);
 ourArray.unshift("Khushi","hello");
 console.log(ourArray);
-
+//Functions
+function firstFunction(){
+    console.log("heyya, World!!");
+}
+firstFunction();
+function secondFunction(x,y){
+    console.log(x*y);
+}
+secondFunction(45,50);
+//Global and local Variable
+var product ="T-shirt";
+function shop(){
+    var product="Shirt";
+    return product;
+}
+console.log(shop());
+console.log(product);
+function minus(num){
+    return num-7;
+}
+console.log(minus(25));
