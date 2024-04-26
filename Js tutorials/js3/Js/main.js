@@ -31,3 +31,12 @@ var z = "Khushi";
  console.log(firstlength);
  console.log(first.length);
  console.log("Hii".length);
+var firstl ="";
+firstl = a[5];
+console.log(firstl);
+var c = "Worldyyyii";
+c[0]= "H";
+console.log(c);
+
+ var d = c[c.length-1];
+console.log(d);
