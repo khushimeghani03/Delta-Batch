@@ -40,3 +40,23 @@ console.log(c);
 
  var d = c[c.length-1];
 console.log(d);
+var ourArray = ["John", 45];
+console.log(ourArray);
+var myData = ourArray[1];
+console.log(myData);
+ourArray[0] = "Panda";
+console.log(ourArray);
+var myArray =[[1,4,5],[65,7,34],[[65,82],[87,76,2]]];
+var myData = myArray[2][0][1];
+console.log(myData);
+ourArray.push("Happy");
+console.log(ourArray);  
+var removedArray = ourArray.pop();
+console.log(removedArray);
+console.log(ourArray);
+var shiftArray = ourArray.shift();
+console.log(shiftArray);
+console.log(ourArray);
+ourArray.unshift("Khushi","hello");
+console.log(ourArray);
+
