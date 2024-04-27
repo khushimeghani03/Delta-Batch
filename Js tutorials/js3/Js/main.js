@@ -80,3 +80,23 @@ function minus(num){
     return num-7;
 }
 console.log(minus(25));
+var processed =0;
+function process(num){
+    return num *5;
+}
+processed = process(76);
+console.log(processed);
+console.log(ourArray);
+arry = JSON.stringify(ourArray);
+console.log(arry);
+//Implementing stand in line in js which is queue 
+/* Queue has functionality which is item is added in last and removed from first
+we will implement this using next in line function */
+function nextInLine(arr, item){
+SecondArr.push(item);
+ return SecondArr.shift();
+}
+var SecondArr = [1, 3 ,4 ,5 ,7 ];
+console.log("Before: " + JSON.stringify(SecondArr));
+console.log(nextInLine(SecondArr,9));
+console.log("After: " + JSON.stringify(SecondArr));
