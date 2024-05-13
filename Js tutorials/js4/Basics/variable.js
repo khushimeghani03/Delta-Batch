@@ -16,4 +16,4 @@ console.log(`
 With Unique user id = ${uid}
 Full Name is = ${fullName}
 city is = ${city}
-and State is = ${state}`);
+and State is = ${state~~}`);
