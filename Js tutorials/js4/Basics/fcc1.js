@@ -212,3 +212,137 @@ HERE WE ARE PASSING AN ELEMENT TO AARAY
 // }
 // console.log(count);
 //NESTED ARRAY WITH NESTED LOOP
+// function mularr(arr) {
+//     var product = 1;
+//     for (var index = 0; index < arr.length; index++) {
+//         for (var j = 0 ;j < arr[index].length; j++) {
+//             product *= arr[index][j];
+            
+//         }
+        
+//     }
+//     return product;
+
+// }
+// var product = mularr([[2,4],[65,45,23]]);
+// console.log(product);
+//DO WHILE LOOP
+// var arr = [];
+// var i = 10;
+// do{
+//     arr.push(i);
+//     i++;
+// }while (i<5)
+// console.log(i,arr);               
+//RANDOM FUNCTION used create random decimal number
+// function randomfun() {
+//     return Math.random();
+// }   
+// console.log(randomfun());
+//RANDOM WHOLE NUMBER
+// function randomwhole() {
+//     return Math.floor(Math.random()*20);
+// }
+// console.log(randomwhole());
+//PARSEINT FUNCTION
+// function kuchbhi(str) {
+//     return parseInt(str);
+// }
+// console.log(kuchbhi("56"));
+//TERNARY OPERATOR
+// function ternary(a,b) {
+//     return a===b ? true: false;
+// }
+// console.log(ternary(5,5));
+// function checksign(val) {
+//     return val>0 ? "it is Positive" :val<0 ? "It is Negative" : "Zero";
+// }
+// console.log(checksign(9));
+// console.log(checksign(-7));
+// console.log(checksign(0));
+//VAR V/S LET KEYWORD
+// function scopeee() {
+//     var i = "function scopee";
+//     if(true)  {
+//         //let i = "block scope";
+//         console.log(i + " it is in block scope");
+//     }
+//     console.log(i + " it is in function scope");
+// }
+// scopeee();
+// MUTATE CONSTATNT VARIABLE ARRAY
+// const s = [2,5, 4];
+// function editt() {
+     // s = [45, 34, 76];
+     // s[0] = 45;
+     // s[1] =34;
+     // s[2] = 56;
+// }
+// editt();
+// console.log(s);
+//OBJECT MUTATION
+// function obj() {
+//     "use strict";
+//      const freezeobj = {
+//         PI : 3.14
+//      };
+//      Object.freeze(freezeobj);
+//      try {
+//         freezeobj.PI = 99;
+//      } catch (error) {
+//         console.log(error);
+//      }
+//      return freezeobj.PI;
+// }
+// const PI = obj();
+//ARROW FUNCTIONS TO WRITE ANNONYMOUS FUNCTION
+// var magic = () => "hello!!!";
+// console.log(magic());
+// var concatenate = (arr1, arr2) => arr1.concat(arr2);
+// console.log(concatenate([1,2],[3,4,5]));
+//ARROW FUNCTION TO WRITE MAP FUNCTION AND FILTER FUNCTION
+// const realnum = [4,5.6,-9.8,3.14,42,6,8.34,-2];
+// const sqint = (arr) => {
+//     const sint = arr.filter(num => Number.isInteger(num) && num>0).map(x => x*x);
+//     return sint;
+   
+// }
+// console.log(sqint(realnum));
+//REST OPERATOR AND REDUCE FUNCTION
+// const num = [1, 3,5 ,7,9];
+// const sum = num.reduce((a,b)=> {
+//     return a +b} );
+// console.log(sum);
+// const sum = (function(){
+//     return function sum (...args){
+//         return args.reduce((a,b) => a+b,0);};
+// })();
+// console.log(sum(1,2,3,4));
+//SPREAD OPERATOR
+// const arr = [4,5,6,7];
+//  const arr1 = [...arr];
+//     console.log(arr1);
+//     arr1[0] = 1;
+//     const arr2 = [2,3,...arr];
+    
+//     console.log(arr1);
+//     console.log(arr2);
+//DESTRUCTURING ASSIGNMENT
+//  const person = {
+//         name: "Khushi",
+//         age: 20,
+//  };
+//     const {name: username, age: userage} = person;
+//     console.log(username);
+//     console.log(userage);
+//destructuring assignment with nested objects
+ const local = {
+        today: {
+            min: 45,
+            max: 67,
+        },
+    };
+    
+
+
+
