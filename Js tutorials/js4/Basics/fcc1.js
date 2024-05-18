@@ -336,13 +336,67 @@ HERE WE ARE PASSING AN ELEMENT TO AARAY
 //     console.log(username);
 //     console.log(userage);
 //destructuring assignment with nested objects
- const local = {
-        today: {
-            min: 45,
-            max: 67,
-        },
-    };
-    
+//  const local = {
+//         today: {
+//             min: 45,
+//             max: 67,
+//         },
+//     };
+//     const {today:{min: Min_temp}} = local;
+//     console.log(Min_temp);
+//DESTRUCTURING ARRAY 
+// const[z,x,,,y]= [1,2,3,4,5];
+// console.log(z,x,y);
+// DESTRUCTURING ARRAY WITH REST OPERATOR  
+// const x =[1,2,3,4,5,6,7,8,9,10];
+// function assign(arr){
+//     const [, , ...y] = arr;
+//     return y;
+// }
 
+//  const y = assign(x);
+//  console.log(x);
+// console.log(y);
+//USING DESTRUCTURING ASSIGNMENT TO PASS OBJECT AS AN ARGUMENT IN FUNCTION
 
-
+// console.log(bio);const stat ={
+//     max:45,
+//     min :23,
+//     name: "Khushi",
+//     city: "Indore"
+// };
+// function call({name,city}) {
+//     const bio = name + city;
+//     return bio;
+// }
+// const bio =(call(stat));
+// console.log(stat);
+//string template literals
+// const result = {
+//     success: ["max length", "no-amd", "max arrow function"],
+//     failure: ["no-var", "var on top","line-break"],
+//     skipped: ["id-black-list", "no-dup-keys"]
+// }
+// function x(arr) {
+//     const display = [];
+//     for(var i =0; i< arr.length ; i++){
+// display.push(`<li class = "text-warning">${arr[i] }</li>`);
+//     }
+//     return display; 
+// } 
+// const display = x(result.failure);
+// console.log(display)
+// console.log(result);;
+// const createPerson = (name, age,gender)=>({name, age , gender});
+// console.log(createPerson("Khushi",20,"Female"));
+//CLASS I JS
+// class Spaceshuttle{
+//     constructor(planet){
+//         this.planet = planet;
+//     } 
+// }
+// const x = new Spaceshuttle("Jupiter");
+// console.log(x.planet);
+const capitaliseString = require('./stringfunction');
+const cap = capitaliseString("helloooooo");
+console.log(cap);
